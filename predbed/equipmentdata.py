@@ -9,7 +9,7 @@ days = 730
 data = []
 
 # Initial values
-prev_beds_occupied = 120  # Start with 120 occupied beds
+prev_beds_occupied = 120  # GIVE INPUT BEDS OCCUPIED FOR TODAY
 
 for day in range(days):
     # Simulate weekend effect (lower admissions & ICU patients)
