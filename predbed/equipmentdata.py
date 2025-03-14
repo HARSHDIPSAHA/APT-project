@@ -28,7 +28,7 @@ for day in range(days):
     
     # Predict medical equipment needed (with some randomness)
     patient_monitors = max(5, int(icu_admissions * 1.2 + surgeries_today * 0.5 + seasonal_factor))
-    defibrillators = max(2, int(surgeries_today * 0.3 + icu_admissions * 0.5 + seasonal_factor))
+    defibrillators=max(2,int(1.1*surgeries_today+0.5*icu_admissions+seasonal_factor+0.3*total_admissions))
     infusion_pumps = max(8, int(icu_admissions * 1.5 + total_admissions * 0.3 + seasonal_factor))
 
     # Store data
