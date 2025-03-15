@@ -61,6 +61,8 @@ for equip, value in predictions.items():
     else:
         print(f"{equip}: Prediction failed.")
 
+
+#UPDATE YOUR DATASET HERE AT END OF DAY WITH ACTUAL DATA
 def update_model_with_actual(models, new_data):
     for target, model in models.items():
         try:

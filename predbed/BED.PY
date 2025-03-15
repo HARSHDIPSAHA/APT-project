@@ -52,6 +52,7 @@ predicted_full[:, -1] = predicted_scaled.flatten()
 predicted_beds = scaler.inverse_transform(predicted_full)[:, -1][0]
 
 print(f"Predicted Beds for Tomorrow: {predicted_beds:.2f}")
+#UPDATE YOUR DATASET HERE AT END OF DAY WITH ACTUAL DATA
 
 def update_model_with_actual(actual_beds):
     global df_scaled
