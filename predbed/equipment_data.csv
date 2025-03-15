@@ -729,3 +729,4 @@ Day_Index,Is_Weekend,Total_Admissions_Today,Total_Discharges_Today,ICU_Admission
 727,True,27,6,4,0,1.0,5,2,13
 728,False,32,28,13,7,1.0,18,8,28
 729,False,34,42,13,9,1.0,20,9,29
+729,False,34,42,13,9,1.0,20,9,29
